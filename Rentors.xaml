@@ -1,0 +1,19 @@
+﻿<Window x:Class="Pavilions_program.Rentors"
+        WindowStartupLocation="CenterScreen"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Pavilions_program"
+        mc:Ignorable="d"
+        Title="Rentors" Height="458" Width="800">
+    <Grid>
+        <Button x:Name="Back" Content="Назад" HorizontalAlignment="Left" Margin="48,386,0,0" VerticalAlignment="Top" Width="176" Click="Back_Click" Height="24"/>
+        <Button x:Name="ToRent" Content="Арендовать" HorizontalAlignment="Left" Margin="517,386,0,0" VerticalAlignment="Top" Width="227" Click="ToRentAct" Height="24"/>
+        <DataGrid IsReadOnly="True" x:Name="grid" HorizontalAlignment="Left" Height="319" Margin="48,33,0,0" VerticalAlignment="Top" Width="696"/>
+        <DatePicker x:Name="date_start_box" HorizontalAlignment="Left" Margin="229,386,0,0" VerticalAlignment="Top" Width="138" Height="26"/>
+        <DatePicker x:Name="date_end_box" HorizontalAlignment="Left" Margin="374,386,0,0" VerticalAlignment="Top" Width="138" Height="26"/>
+        <Label Content="Начало аренды " HorizontalAlignment="Left" Margin="229,360,0,0" VerticalAlignment="Top" Width="138"/>
+        <Label Content="Окончание аренды" HorizontalAlignment="Left" Margin="374,360,0,0" VerticalAlignment="Top" Width="138"/>
+    </Grid>
+</Window>

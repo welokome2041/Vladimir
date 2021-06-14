@@ -1,0 +1,24 @@
+﻿<Window x:Class="Pavilions_program.AddRenterWindow"
+        WindowStartupLocation="CenterScreen"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Pavilions_program"
+        mc:Ignorable="d"
+        Title="AddRenterWindow" Height="450" Width="800">
+    <Grid>
+        <Button x:Name="back" Content="Назад" HorizontalAlignment="Left" Margin="271,369,0,0" VerticalAlignment="Top" Width="130" Click="back_Click" Height="20"/>
+        <Label Content="Добавление арендатора" HorizontalAlignment="Left" Margin="322,30,0,0" VerticalAlignment="Top" Height="33" Width="155"/>
+        <Label Content="Название" HorizontalAlignment="Left" Margin="271,108,0,0" VerticalAlignment="Top" Height="26" Width="88"/>
+        <Label Content="Телефон" HorizontalAlignment="Left" Margin="271,139,0,0" VerticalAlignment="Top" Height="26" Width="88"/>
+        <Label Content="Город" HorizontalAlignment="Left" Margin="271,171,0,0" VerticalAlignment="Top" Height="31" Width="88"/>
+        <Label Content="Улица" HorizontalAlignment="Left" Margin="271,202,0,0" VerticalAlignment="Top" Height="26" Width="88"/>
+        <Button x:Name="accept" Content="Применить" HorizontalAlignment="Left" Margin="406,369,0,0" VerticalAlignment="Top" Width="130" Click="accept_click" Height="20"/>
+        <TextBox x:Name="name_text" HorizontalAlignment="Left" Height="26" Margin="364,108,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="129"/>
+        <TextBox x:Name="phone_text" HorizontalAlignment="Left" Height="26" Margin="364,139,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="129"/>
+        <TextBox x:Name="city_text" HorizontalAlignment="Left" Height="25" Margin="364,171,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="129"/>
+        <TextBox x:Name="street_text" HorizontalAlignment="Left" Height="26" Margin="364,202,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="129"/>
+
+    </Grid>
+</Window>
